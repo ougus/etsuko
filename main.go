@@ -1521,7 +1521,7 @@ func listAppCommands() map[string]*customCommand {
 							Embeds: []*discordgo.MessageEmbed {
 								{
 									Color: embedColor,
-									Description: "Your account can be deleted whenever, for any reason. that is the only term.",
+									Description: "Your account can be deleted whenever, for any reason. That is the only term.",
 								},
 							},
 						},
@@ -1581,8 +1581,8 @@ func createDate(now time.Time) string {
 func webhookError(bot *discordgo.Session, err error) {
 	if err != nil {
 		bot.WebhookExecute(
-			"932489231958433893",
-			"nwW2afhvBAznwb9m4erwmsiFf-oWrEUdaK6Ser3bZbaevFqeD0eI1CzjiRTEprXDciNq",
+			"",
+			"",
 			false,
 			&discordgo.WebhookParams {
 				Embeds: []*discordgo.MessageEmbed {
